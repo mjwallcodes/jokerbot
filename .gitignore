@@ -1,0 +1,11 @@
+/target/ 
+*.log 
+.classpath 
+.project 
+.settings/ 
+.env 
+heroku.yml 
+Procfile 
+application.properties 
+application.yml  
+anarchy-jokebot/* 

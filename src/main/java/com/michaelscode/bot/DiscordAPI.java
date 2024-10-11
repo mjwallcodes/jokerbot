@@ -10,7 +10,8 @@ import net.dv8tion.jda.api.requests.restaction.CommandListUpdateAction;
 public class DiscordAPI extends ListenerAdapter{
 	static JokeApi api = new JokeApi();
 	public DiscordAPI() throws Exception {
-		JDA jda = JDABuilder.createDefault(System.getenv("DISCORD_KEY"))
+		String botKey = System.getenv("DISCORD_KEY");
+		JDA jda = JDABuilder.createDefault(botKey)
 		.enableIntents(GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_PRESENCES, GatewayIntent.GUILD_MESSAGES)
 		.addEventListeners(new MessageReceivedListener(api), new SlashCommandInteraction(api)).build();
 		CommandListUpdateAction commands = jda.updateCommands();

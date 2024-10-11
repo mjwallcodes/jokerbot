@@ -1,1 +1,1 @@
-worker: java -jar target/jokerbot-1.0.jar
+worker: java -jar target/jokebot-1.0.jar
