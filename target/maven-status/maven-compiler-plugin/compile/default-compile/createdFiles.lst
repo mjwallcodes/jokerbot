@@ -1,0 +1,5 @@
+com\michaelscode\bot\MessageReceivedListener.class
+com\michaelscode\bot\DiscordAPI.class
+com\michaelscode\bot\Main.class
+com\michaelscode\bot\SlashCommandInteraction.class
+com\michaelscode\bot\JokeApi.class

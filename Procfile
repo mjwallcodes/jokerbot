@@ -1,0 +1,1 @@
+worker: java -jar target/jokerbot-1.0.jar
